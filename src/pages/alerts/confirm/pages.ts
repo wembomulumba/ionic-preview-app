@@ -8,6 +8,7 @@ import { AlertController } from 'ionic-angular';
 })
 export class ConfirmPage {
 
+  // constructor method
   constructor(public alerCtrl: AlertController) { }
 
   doConfirm() {
@@ -29,6 +30,8 @@ export class ConfirmPage {
         }
       ]
     });
+    
+    
     confirm.present()
   }
 
