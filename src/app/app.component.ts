@@ -36,7 +36,6 @@ export class MyApp {
 
     // production-only code
     // production is false unless viewed on the docs
-    // http://ionicframework.com/docs/v2/components/
     if (this.platform.getQueryParam('production') === 'true') {
       this.isProductionMode = true;
 
